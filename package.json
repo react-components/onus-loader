@@ -1,6 +1,6 @@
 {
   "name": "onus-loader",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "webpack loader for onus",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/react-components/onus-loader",
   "peerDependencies": {
-    "onus": ">=0.1.0"
+    "onus": ">=0.2.0"
   }
 }
