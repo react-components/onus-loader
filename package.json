@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/react-components/onus-loader",
   "peerDependencies": {
-    "onus": "^0.1.0"
+    "onus": ">=0.1.0"
   }
 }
