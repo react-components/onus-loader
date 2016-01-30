@@ -13,6 +13,6 @@ module.exports = function(source) {
 
   return source +
     '\n\n' +
-    'if (!exports.displayName) exports.displayName = ' + JSON.stringify(filename) + '\n\n' +
+    'if (typeof __module_name && !exports.displayName) exports.displayName = __module_name;\n\n' +
     template.replace(/__FILENAME__/g, JSON.stringify(res));
 };
